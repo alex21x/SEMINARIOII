@@ -1,1 +1,89 @@
-<p>cliente works!</p>
+<div class="container mt-4">
+  <div class="row justify-content-center">
+    <div class="col-md-7">
+      <div class="card shadow">
+        <div class="card-header bg-primary text-white text-center">
+          <h5>Formulario de Cliente</h5>
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="mb-3">
+              <label for="nombres" class="form-label">Nombres</label>
+              <input type="text" class="form-control" id="nombres" placeholder="Ingrese sus nombres" required>
+            </div>
+            <div class="mb-3">
+              <label for="apellidos" class="form-label">Apellidos</label>
+              <input type="text" class="form-control" id="apellidos" placeholder="Ingrese sus apellidos" required>
+            </div>
+            <div class="mb-3">
+              <label for="dni" class="form-label">DNI</label>
+              <input type="text" class="form-control" id="dni" placeholder="Ingrese su DNI" maxlength="8" required>
+            </div>
+            <div class="mb-3">
+              <label for="direccion" class="form-label">Dirección</label>
+              <input type="text" class="form-control" id="direccion" placeholder="Ingrese su dirección" required>
+            </div>
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Teléfono</label>
+              <input type="tel" class="form-control" id="telefono" placeholder="Ingrese su teléfono" required>
+            </div>
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary">Registrar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Nuevo formulario con diseño similar al de la imagen -->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <div class="d-flex flex-row rounded-3" style="background-color: #ffe6f3; min-height: 350px;">
+        <!-- Sección informativa izquierda -->
+        <div class="p-4 d-flex flex-column justify-content-between" style="min-width: 300px; max-width: 350px;">
+          <div>
+            <h2 class="fw-bold mb-2">¡Hablemos!</h2>
+            <p class="mb-4" style="font-size: 1rem;">
+              No pierdas esta oportunidad para crecer tus ventas y aumentar la retención y recurrencia de tu ecommerce.
+            </p>
+          </div>
+          <div class="d-flex align-items-center mt-3">
+            <span class="me-2" style="font-size: 2rem;">&#9993;</span>
+            <div>
+              <div class="fw-bold" style="font-size: 0.95rem;">Envíanos un email</div>
+              <div style="font-size: 0.95rem;">contacto@whatscart.ai</div>
+            </div>
+          </div>
+        </div>
+        <!-- Formulario derecha -->
+        <div class="flex-grow-1 p-4">
+          <form>
+            <div class="row mb-3">
+              <div class="col-md-6 mb-3 mb-md-0">
+                <input type="text" class="form-control" placeholder="Nombre" required>
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Apellido" required>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-md-6 mb-3 mb-md-0">
+                <input type="email" class="form-control" placeholder="Email" required>
+              </div>
+              <div class="col-md-6">
+                <input type="tel" class="form-control" placeholder="Teléfono" required>
+              </div>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4" placeholder="Déjanos un mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark px-4">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
